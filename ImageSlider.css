@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    margin-top:30px ;
+    position: fixed;
+  }
+  .flex_row{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+    position: fixed;
+  }
+  
+.thumbnail{
+  padding-left: 20px;
+}
+.clicked{
+  border: 5px solid rgb(206, 197, 197);
+}
+@media(max-width:768px){
+  .flex_row{
+     float: none;
+     margin: 5%;
+     width:90%;
+  }
+}
